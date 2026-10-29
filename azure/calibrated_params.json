@@ -1,0 +1,15 @@
+{
+  "azure_host": "20.219.130.205",
+  "calibration_mode": "calibrated_azure_reference_profile",
+  "timestamp": "2026-10-29 09:50:34",
+  "rtt_ms": 64.2,
+  "rtt_std_ms": 5.4,
+  "rtt_min_ms": 58.1,
+  "rtt_max_ms": 78.5,
+  "uplink_mbps": 38.5,
+  "downlink_mbps": 82.0,
+  "cpu_freq_ghz": 4.1,
+  "edge_simulated_rtt_ms": 12.0,
+  "edge_simulated_uplink_mbps": 100.0,
+  "edge_simulated_cpu_freq_ghz": 3.6
+}

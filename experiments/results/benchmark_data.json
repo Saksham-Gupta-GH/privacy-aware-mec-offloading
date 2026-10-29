@@ -1,0 +1,508 @@
+{
+  "suite_a_ilp_vs_ga": [
+    {
+      "num_tasks": 10,
+      "ilp_cost": 5.7776,
+      "ilp_runtime_ms": 51.38,
+      "ga_cost": 5.7776,
+      "ga_runtime_ms": 70.9,
+      "optimality_gap_percent": 0.0
+    },
+    {
+      "num_tasks": 25,
+      "ilp_cost": 13.8031,
+      "ilp_runtime_ms": 16.66,
+      "ga_cost": 13.8031,
+      "ga_runtime_ms": 157.32,
+      "optimality_gap_percent": 0.0
+    },
+    {
+      "num_tasks": 50,
+      "ilp_cost": 17.8743,
+      "ilp_runtime_ms": 16.98,
+      "ga_cost": 17.8765,
+      "ga_runtime_ms": 301.56,
+      "optimality_gap_percent": 0.01
+    },
+    {
+      "num_tasks": 75,
+      "ilp_cost": 33.7194,
+      "ilp_runtime_ms": 19.94,
+      "ga_cost": 33.7741,
+      "ga_runtime_ms": 481.18,
+      "optimality_gap_percent": 0.16
+    },
+    {
+      "num_tasks": 100,
+      "ilp_cost": 49.5352,
+      "ilp_runtime_ms": 19.87,
+      "ga_cost": 49.9003,
+      "ga_runtime_ms": 593.78,
+      "optimality_gap_percent": 0.74
+    }
+  ],
+  "suite_b_large_scale": {
+    "Local-Only": [
+      {
+        "num_tasks": 100,
+        "total_cost": 64.56,
+        "avg_latency_ms": 187.05,
+        "total_energy_j": 22.45,
+        "total_cost_usd": 0.0,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 19.0,
+        "runtime_ms": 0.02,
+        "tier_distribution": {
+          "local": 100,
+          "edge": 0,
+          "cloud": 0
+        }
+      },
+      {
+        "num_tasks": 250,
+        "total_cost": 173.45,
+        "avg_latency_ms": 206.91,
+        "total_energy_j": 62.07,
+        "total_cost_usd": 0.0,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 20.0,
+        "runtime_ms": 0.01,
+        "tier_distribution": {
+          "local": 250,
+          "edge": 0,
+          "cloud": 0
+        }
+      },
+      {
+        "num_tasks": 500,
+        "total_cost": 350.86,
+        "avg_latency_ms": 204.03,
+        "total_energy_j": 122.42,
+        "total_cost_usd": 0.0,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 20.6,
+        "runtime_ms": 0.02,
+        "tier_distribution": {
+          "local": 500,
+          "edge": 0,
+          "cloud": 0
+        }
+      },
+      {
+        "num_tasks": 750,
+        "total_cost": 546.63,
+        "avg_latency_ms": 205.29,
+        "total_energy_j": 184.76,
+        "total_cost_usd": 0.0,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 21.87,
+        "runtime_ms": 0.03,
+        "tier_distribution": {
+          "local": 750,
+          "edge": 0,
+          "cloud": 0
+        }
+      },
+      {
+        "num_tasks": 1000,
+        "total_cost": 713.8,
+        "avg_latency_ms": 202.68,
+        "total_energy_j": 243.21,
+        "total_cost_usd": 0.0,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 21.3,
+        "runtime_ms": 0.05,
+        "tier_distribution": {
+          "local": 1000,
+          "edge": 0,
+          "cloud": 0
+        }
+      }
+    ],
+    "Edge-Only": [
+      {
+        "num_tasks": 100,
+        "total_cost": 64.0,
+        "avg_latency_ms": 177.48,
+        "total_energy_j": 6.16,
+        "total_cost_usd": 0.0,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 23.0,
+        "runtime_ms": 0.01,
+        "tier_distribution": {
+          "local": 0,
+          "edge": 100,
+          "cloud": 0
+        }
+      },
+      {
+        "num_tasks": 250,
+        "total_cost": 138.41,
+        "avg_latency_ms": 180.11,
+        "total_energy_j": 14.1,
+        "total_cost_usd": 0.0,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 18.8,
+        "runtime_ms": 0.01,
+        "tier_distribution": {
+          "local": 0,
+          "edge": 250,
+          "cloud": 0
+        }
+      },
+      {
+        "num_tasks": 500,
+        "total_cost": 274.67,
+        "avg_latency_ms": 175.46,
+        "total_energy_j": 26.84,
+        "total_cost_usd": 0.0,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 18.8,
+        "runtime_ms": 0.02,
+        "tier_distribution": {
+          "local": 0,
+          "edge": 500,
+          "cloud": 0
+        }
+      },
+      {
+        "num_tasks": 750,
+        "total_cost": 449.84,
+        "avg_latency_ms": 180.01,
+        "total_energy_j": 42.66,
+        "total_cost_usd": 0.0,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 21.07,
+        "runtime_ms": 0.03,
+        "tier_distribution": {
+          "local": 0,
+          "edge": 750,
+          "cloud": 0
+        }
+      },
+      {
+        "num_tasks": 1000,
+        "total_cost": 590.05,
+        "avg_latency_ms": 177.59,
+        "total_energy_j": 55.92,
+        "total_cost_usd": 0.0,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 20.7,
+        "runtime_ms": 0.05,
+        "tier_distribution": {
+          "local": 0,
+          "edge": 1000,
+          "cloud": 0
+        }
+      }
+    ],
+    "Cloud-Greedy (Latency-First)": [
+      {
+        "num_tasks": 100,
+        "total_cost": 3506.93,
+        "avg_latency_ms": 310.42,
+        "total_energy_j": 15.27,
+        "total_cost_usd": 0.25294,
+        "policy_violations_count": 34,
+        "true_violations_count": 34,
+        "true_violation_rate": 100.0,
+        "deadline_miss_rate": 30.0,
+        "runtime_ms": 0.01,
+        "tier_distribution": {
+          "local": 14,
+          "edge": 23,
+          "cloud": 63
+        }
+      },
+      {
+        "num_tasks": 250,
+        "total_cost": 8055.27,
+        "avg_latency_ms": 299.62,
+        "total_energy_j": 34.64,
+        "total_cost_usd": 0.70064,
+        "policy_violations_count": 78,
+        "true_violations_count": 78,
+        "true_violation_rate": 100.0,
+        "deadline_miss_rate": 28.4,
+        "runtime_ms": 0.03,
+        "tier_distribution": {
+          "local": 39,
+          "edge": 57,
+          "cloud": 154
+        }
+      },
+      {
+        "num_tasks": 500,
+        "total_cost": 17418.19,
+        "avg_latency_ms": 289.88,
+        "total_energy_j": 65.73,
+        "total_cost_usd": 1.37569,
+        "policy_violations_count": 169,
+        "true_violations_count": 169,
+        "true_violation_rate": 100.0,
+        "deadline_miss_rate": 29.6,
+        "runtime_ms": 0.05,
+        "tier_distribution": {
+          "local": 71,
+          "edge": 123,
+          "cloud": 306
+        }
+      },
+      {
+        "num_tasks": 750,
+        "total_cost": 26300.8,
+        "avg_latency_ms": 300.25,
+        "total_energy_j": 104.75,
+        "total_cost_usd": 2.08227,
+        "policy_violations_count": 255,
+        "true_violations_count": 255,
+        "true_violation_rate": 100.0,
+        "deadline_miss_rate": 30.53,
+        "runtime_ms": 0.07,
+        "tier_distribution": {
+          "local": 115,
+          "edge": 178,
+          "cloud": 457
+        }
+      },
+      {
+        "num_tasks": 1000,
+        "total_cost": 34961.64,
+        "avg_latency_ms": 295.38,
+        "total_energy_j": 136.93,
+        "total_cost_usd": 2.7264,
+        "policy_violations_count": 339,
+        "true_violations_count": 339,
+        "true_violation_rate": 100.0,
+        "deadline_miss_rate": 30.6,
+        "runtime_ms": 0.11,
+        "tier_distribution": {
+          "local": 142,
+          "edge": 263,
+          "cloud": 595
+        }
+      }
+    ],
+    "PRISM-GA (Proposed Heuristic)": [
+      {
+        "num_tasks": 100,
+        "total_cost": 55.42,
+        "avg_latency_ms": 164.92,
+        "total_energy_j": 7.38,
+        "total_cost_usd": 0.00257,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 19.0,
+        "runtime_ms": 499.01,
+        "tier_distribution": {
+          "local": 26,
+          "edge": 69,
+          "cloud": 5
+        }
+      },
+      {
+        "num_tasks": 250,
+        "total_cost": 126.3,
+        "avg_latency_ms": 179.68,
+        "total_energy_j": 17.11,
+        "total_cost_usd": 0.01462,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 16.0,
+        "runtime_ms": 1241.4,
+        "tier_distribution": {
+          "local": 37,
+          "edge": 196,
+          "cloud": 17
+        }
+      },
+      {
+        "num_tasks": 500,
+        "total_cost": 264.27,
+        "avg_latency_ms": 181.77,
+        "total_energy_j": 39.01,
+        "total_cost_usd": 0.06301,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 16.6,
+        "runtime_ms": 2546.7,
+        "tier_distribution": {
+          "local": 94,
+          "edge": 343,
+          "cloud": 63
+        }
+      },
+      {
+        "num_tasks": 750,
+        "total_cost": 429.28,
+        "avg_latency_ms": 184.51,
+        "total_energy_j": 61.36,
+        "total_cost_usd": 0.07531,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 18.67,
+        "runtime_ms": 3964.02,
+        "tier_distribution": {
+          "local": 138,
+          "edge": 539,
+          "cloud": 73
+        }
+      },
+      {
+        "num_tasks": 1000,
+        "total_cost": 571.19,
+        "avg_latency_ms": 183.88,
+        "total_energy_j": 83.66,
+        "total_cost_usd": 0.12777,
+        "policy_violations_count": 0,
+        "true_violations_count": 0,
+        "true_violation_rate": 0.0,
+        "deadline_miss_rate": 18.5,
+        "runtime_ms": 5401.44,
+        "tier_distribution": {
+          "local": 200,
+          "edge": 686,
+          "cloud": 114
+        }
+      }
+    ]
+  },
+  "suite_c_sensitivity": [
+    {
+      "w_P": 0.0,
+      "weights": {
+        "w_L": 0.5,
+        "w_E": 0.4,
+        "w_C": 0.1,
+        "w_P": 0.0
+      },
+      "local_percent": 17.2,
+      "edge_percent": 72.4,
+      "cloud_percent": 10.4,
+      "policy_violations": 0,
+      "true_violations": 0,
+      "avg_latency_ms": 186.67,
+      "total_energy_j": 17.9
+    },
+    {
+      "w_P": 0.1,
+      "weights": {
+        "w_L": 0.45,
+        "w_E": 0.36,
+        "w_C": 0.09,
+        "w_P": 0.1
+      },
+      "local_percent": 14.8,
+      "edge_percent": 78.0,
+      "cloud_percent": 7.2,
+      "policy_violations": 0,
+      "true_violations": 0,
+      "avg_latency_ms": 188.6,
+      "total_energy_j": 17.75
+    },
+    {
+      "w_P": 0.25,
+      "weights": {
+        "w_L": 0.375,
+        "w_E": 0.3,
+        "w_C": 0.075,
+        "w_P": 0.25
+      },
+      "local_percent": 16.0,
+      "edge_percent": 76.4,
+      "cloud_percent": 7.6,
+      "policy_violations": 0,
+      "true_violations": 0,
+      "avg_latency_ms": 187.72,
+      "total_energy_j": 18.89
+    },
+    {
+      "w_P": 0.4,
+      "weights": {
+        "w_L": 0.3,
+        "w_E": 0.24,
+        "w_C": 0.06,
+        "w_P": 0.4
+      },
+      "local_percent": 21.6,
+      "edge_percent": 68.8,
+      "cloud_percent": 9.6,
+      "policy_violations": 0,
+      "true_violations": 0,
+      "avg_latency_ms": 190.17,
+      "total_energy_j": 19.44
+    },
+    {
+      "w_P": 0.6,
+      "weights": {
+        "w_L": 0.2,
+        "w_E": 0.16,
+        "w_C": 0.04,
+        "w_P": 0.6
+      },
+      "local_percent": 21.6,
+      "edge_percent": 70.4,
+      "cloud_percent": 8.0,
+      "policy_violations": 0,
+      "true_violations": 0,
+      "avg_latency_ms": 189.04,
+      "total_energy_j": 21.12
+    },
+    {
+      "w_P": 0.8,
+      "weights": {
+        "w_L": 0.1,
+        "w_E": 0.08,
+        "w_C": 0.02,
+        "w_P": 0.8
+      },
+      "local_percent": 61.2,
+      "edge_percent": 35.2,
+      "cloud_percent": 3.6,
+      "policy_violations": 0,
+      "true_violations": 0,
+      "avg_latency_ms": 198.74,
+      "total_energy_j": 38.63
+    },
+    {
+      "w_P": 1.0,
+      "weights": {
+        "w_L": 0.0,
+        "w_E": 0.0,
+        "w_C": 0.0,
+        "w_P": 1.0
+      },
+      "local_percent": 66.8,
+      "edge_percent": 25.6,
+      "cloud_percent": 7.6,
+      "policy_violations": 0,
+      "true_violations": 0,
+      "avg_latency_ms": 211.87,
+      "total_energy_j": 50.76
+    }
+  ]
+}
