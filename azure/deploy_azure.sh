@@ -45,3 +45,4 @@ echo "================================================================="
 echo "Deployment completed!"
 echo "You can test the endpoint: curl http://${AZURE_HOST}:${AZURE_API_PORT}/health"
 echo "================================================================="
+

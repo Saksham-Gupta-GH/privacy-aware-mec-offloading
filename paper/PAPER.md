@@ -118,3 +118,4 @@ Parameters were measured against a live **Microsoft Azure Linux VM** (`20.219.13
 
 ## VI. Conclusion
 PRISM-MEC demonstrates that privacy awareness can be integrated into Mobile Edge Computing task offloading without sacrificing latency or battery efficiency. By combining natural language processing privacy classification, a multi-objective cost model, and a constraint-repaired genetic algorithm, PRISM-MEC guarantees 100% policy compliance while remaining within 0.74% of the true mathematical global optimum.
+

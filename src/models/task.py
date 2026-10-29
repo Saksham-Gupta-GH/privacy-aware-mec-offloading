@@ -37,3 +37,4 @@ class HealthcareTask:
     def is_deadline_missed(self, total_latency_ms: float) -> bool:
         """Returns True if the task failed to finish before its deadline."""
         return total_latency_ms > self.deadline_ms
+

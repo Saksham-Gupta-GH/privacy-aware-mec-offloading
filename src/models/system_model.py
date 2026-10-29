@@ -163,3 +163,4 @@ class SystemModel:
             "is_hard_violation": is_hard_violation,
             "objective_value": cost_term
         }
+

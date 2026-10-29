@@ -61,3 +61,4 @@ class PrivacyScorer:
             task.privacy_confidence = float(probs[i][pred_level])
 
         return tasks
+

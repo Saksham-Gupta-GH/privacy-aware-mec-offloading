@@ -159,3 +159,4 @@ class GeneticAlgorithmScheduler(BaseScheduler):
             assignments[task.task_id] = TIER_MAP[best_chromosome[i]]
 
         return assignments
+

@@ -15,3 +15,4 @@ class EdgeOnlyScheduler(BaseScheduler):
 
     def schedule(self, tasks: List[HealthcareTask]) -> Dict[int, str]:
         return {task.task_id: "edge" for task in tasks}
+

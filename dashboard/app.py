@@ -294,3 +294,4 @@ with tab4:
     cm_path = config.BASE_DIR / "paper" / "figures" / "fig1_confusion_matrix.png"
     if cm_path.exists():
         st.image(str(cm_path), caption="Figure 1: Machine Learning Privacy Classifier Confusion Matrix", width=450)
+

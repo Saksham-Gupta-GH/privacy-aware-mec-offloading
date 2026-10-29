@@ -76,3 +76,4 @@ CLOUD_PRIVACY_RISK_FACTOR = 0.95    # Untrusted third-party public cloud
 # Security: Tiers where Critical (L2) data is allowed
 # Critical PII can ONLY execute on Local or Trusted Edge; strictly forbidden on Cloud
 ALLOWED_TIERS_FOR_CRITICAL = {"local", "edge"}
+

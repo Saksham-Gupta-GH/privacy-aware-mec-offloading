@@ -104,3 +104,4 @@ def run_calibration(req: CalibrationRequest, authorized: str = Depends(verify_ap
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("AZURE_API_PORT", 8000)))
+

@@ -84,3 +84,4 @@ class DiscreteEventSimulator:
             results[scheduler.name] = metrics
 
         return results
+
