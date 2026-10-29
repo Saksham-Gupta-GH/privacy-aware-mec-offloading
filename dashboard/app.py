@@ -1,9 +1,16 @@
 import os
+import sys
+from pathlib import Path
+
 os.environ["MPLCONFIGDIR"] = "/tmp/matplotlib"
+
+# Ensure project root is in sys.path when launched via Streamlit CLI
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 import json
 import time
-from pathlib import Path
 import streamlit as st
 import pandas as pd
 import numpy as np
